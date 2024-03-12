@@ -1,0 +1,22 @@
+# Ignore compiled files
+.class
+*.jar
+*.war
+
+# Ignore temporary files
+*~
+.DS_Store
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore dependencies
+/node_modules/
+/vendor/
+
+# Ignore the "logs" folder and all its contents
+/annotations/
+
+# Ignore the large pre-trained model
+*.pth
