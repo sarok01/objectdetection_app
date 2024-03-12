@@ -1,14 +1,14 @@
 # objectdetection_app
 ## Object Detection App with Pre-trained R-CNN
 ## Overview:
-This repository contains the main files of the Docker image for an object detection application built on a pre-trained Region-Based Convolutional Neural Network (R-CNN). For a detailed explanation, pleasecheck the presentation.
+This repository contains the main files of the Docker image for an object detection application built on a pre-trained Region-Based Convolutional Neural Network (R-CNN). For a detailed explanation, please check the presentation.
 
 ## Features:
 1. Utilizes a pre-trained R-CNN for object detection tasks
 2. Dockerized deployment for easy portability and scalability
 3. Integration with AWS for cloud deployment using Terraform
 
-##Usage:
+## Usage:
 ### To use the object detection app:
 
 1. Ensure Docker is installed on your system.
@@ -25,3 +25,8 @@ This repository contains the main files of the Docker image for an object detect
 3. Copy Predicted Image: Once inside the container's terminal, navigate to the directory where the predicted image (predicted_image.jpg) is located. Use the docker cp command to copy the image from the container to your local machine: docker cp <container_name>:/path/to/predicted_image.jpg /path/on/your/local/machine
 
 ## Example Prediction 
+
+![Image Input](https://raw.githubusercontent.com/sarok01/objectdetection_app/main/downloaded_image.jpg)
+
+![Predictions](https://raw.githubusercontent.com/sarok01/objectdetection_app/main/predicted_image.jpg)
+
